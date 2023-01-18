@@ -1,0 +1,8 @@
+<h1>Listado de Armas</h1>
+<ul>
+    <li *ngFor="let h of list">
+        <p>{{h.name}} / {{h.type}}</p>
+        <img [src]="h.img">
+
+    </li>
+</ul>
